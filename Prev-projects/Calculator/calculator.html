@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacquard+12&family=Libre+Baskerville&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="calculator">
+        <h1><span class="libre-baskerville-regular">💗 Calculator 💗</span></h1>
+        <div class="display" id="display"> &nbsp;</div>
+        <div class="buttons">
+            <button class="button ac" onclick="clearDisplay()">AC</button>
+            <button class="button aqua" onclick="appendCharacter('%')">%</button>
+            <button class="button aqua" onclick="appendCharacter('÷')">&#247;</button>
+
+            <button class="button del" onclick="deleteCharacter()">Del</button>
+            <button class="button" onclick="appendCharacter('7')">7</button>
+            <button class="button" onclick="appendCharacter('8')">8</button>
+            <button class="button" onclick="appendCharacter('9')">9</button>
+            <button class="button aqua" onclick="appendCharacter('-')">-</button>
+            <button class="button" onclick="appendCharacter('4')">4</button>
+            <button class="button" onclick="appendCharacter('5')">5</button>
+            <button class="button" onclick="appendCharacter('6')">6</button>
+            <button class="button aqua" onclick="appendCharacter('+')">+</button>
+            <button class="button" onclick="appendCharacter('1')">1</button>
+            <button class="button" onclick="appendCharacter('2')">2</button>
+            <button class="button" onclick="appendCharacter('3')">3</button>
+            <button class="button aqua" onclick="appendCharacter('×')">&#215;</button>
+            <button class="button" onclick="appendCharacter('00')">00</button>
+            <button class="button" onclick="appendCharacter('0')">0</button>
+            <button class="button" onclick="appendCharacter('.')">.</button>
+            <button class="button green" onclick="calculateResult()"><span style="font-size: 30px;">=</span></button>
+        </div>
+        <br>
+    </div><br><br>
+    <div><span class="libre-baskerville-regular myname">Created by Sreelatha 💗</span></div>
+    <script src="Script.js"></script>
+</body>
+</html>

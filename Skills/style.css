@@ -1,0 +1,15 @@
+.bgcolor {
+    background-color:  #000000;
+}
+.header {
+    justify-content: flex-end;
+}
+.navbar {
+    font-size: 1.5rem;
+    padding: 0.2%;
+    background-color: rgb(56, 156, 223);
+    color: black;
+}
+.navbar-brand {
+    font-size: 2rem;
+}
